@@ -4,8 +4,9 @@ public class ThredTest {
         System.out.println("");
 
         Runnable task = () -> {
-            System.out.println("THIS IS FIRST THREAD");
+            System.out.println("THIS IS FIRST THREAD- HELLO WORLD");
         };
+
 
         Thread me = new Thread( task);
         me.start();
