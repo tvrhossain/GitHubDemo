@@ -13,3 +13,12 @@ public class ThredTest {
         me.interrupt();
     }
 }
+
+class NewTask implements Runnable{
+
+
+    @Override
+    public void run() {
+
+    }
+}
