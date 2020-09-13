@@ -4,7 +4,7 @@ public class ThredTest {
         System.out.println("");
 
         Runnable task = () -> {
-            System.out.println("THIS IS FIRST THREAD- HELLO WORLD");
+            System.out.println("THIS IS FIRST THREAD- HELLO WORLD WAR 3");
         };
 
 
